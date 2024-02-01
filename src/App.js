@@ -6,6 +6,7 @@ import Mainpage from "./pages/Mainpage";
 import MenPage from "./pages/MenPage";
 import WomenPage from "./pages/WomenPage";
 import ProductPage_1 from "./pages/ProductPage_1";
+import MyPage from "./pages/MyPage";
 
 const Layout = () => {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route index element={<Mainpage />} />
           <Route path="/men" element={<MenPage />} />
           <Route path="/women" element={<WomenPage />} />
+          <Route path="/login" element={<MyPage />} />
           <Route path="/product/:id" element={<ProductPage_1 />} />
         </Route>
       </Routes>
