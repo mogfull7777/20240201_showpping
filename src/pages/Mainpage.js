@@ -13,7 +13,7 @@ function Mainpage() {
   return (
     <div>
       <div className="imageSection">
-        <img className="bannerImg" src="img/banner_img_1.jpg" />
+        <img className="bannerImg" src="/img/banner_img_1.jpg" />
       </div>
       <div className="productSection">
         <ul className="productMap">
